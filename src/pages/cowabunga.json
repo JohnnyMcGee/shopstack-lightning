@@ -1,0 +1,8 @@
+{
+    "page": {
+        "title": "Dude",
+        "heading": "Cowabunga, dude!",
+        "body": "Pizza time"
+    },
+    "template": "templates/cowabunga.liquid"
+}
