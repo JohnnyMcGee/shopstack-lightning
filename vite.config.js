@@ -7,7 +7,9 @@ export default defineConfig({
   plugins: [
     shopify(),
     vituum(),
-    liquid()
+    liquid({
+      data: "./src/data/main.json"
+    })
   ],
   build: {
     emptyOutDir: false

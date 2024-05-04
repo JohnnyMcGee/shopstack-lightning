@@ -1,0 +1,8 @@
+{% liquid
+  assign layout = '../../../layout/vite.liquid'
+  assign page_template = '../../../templates/' | append: page.template
+  capture content_for_layout
+    render page_template, page: page
+  endcapture
+  render layout, content_for_layout: content_for_layout
+%}
